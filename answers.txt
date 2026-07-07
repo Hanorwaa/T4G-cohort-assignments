@@ -1,0 +1,45 @@
+ the site is opend by the browser in use
+ a client requests for data or services provided by a server and the server will provide the neede resources to the client.eg google browser is a client while the remote computer system is a server
+ it serves as a phone book for the internet.it translates readable human lanuage such as google.com into an IP adress like 142.465.49 which the computers can use to communicate amongst themselves
+ load balancers are hardware or software devices that control the flow of packets to the nachines for which they are balancing the load.a firewall is a network  security device or software that monitors and filters incoming and outgoing network traffic.for firewalls,there is a limit on the amount of network traffic that can be supported hence adding additional firewall systems is required.in a load balaned configuratio,additional firewalls can be added systematically to increase capacity.Firewall capacity can be added live without affecting the existing firewall systems
+ a webserver is a software component that delivers static data likev images,files and text in response to client requests.An application server adds business logic to compute the web server's response .An application server takes an approach of generating responses by executing business logic and interacting with databases.This approach makes it more suitable for backend developers
+ it is a trade secret to prevent everyone from knowing information or trade secret of the corporate office.There is also the issue of flood of requests directly to thec database which will cause overload.  An application servers acts as a mediator and drives operational efficieny.Using the server increases productivity,better data management,enhanced collaboration and improved deccision making.
+ The university page will be static while the momo page will be dynamic.A static website is like a book on front shelf which can display the same information for all users,this is seen on university websites.the dynamic web displays dofferent content for each user,similar to your momo page displaying information specific to only you.
+ front end is the part of an application which includes visual elements like buttons,checkboxes and graphics.The backend is the data and infrastructure that makes the application work.i will use the backend to check the passwords against the database because the backend is suitable for mantaining information in the database.
+ the command line is used to mande,code and install dependencies efficiently.It is neccesary in oder to navigate tasks
+ a relative path is dependent on the current directory being used while the absolute directory gives the complete path from the root directory.eg /home/user/projeccts/linux/notes.txt is an absolute path whiles being in a current dierectory /home/user would have a relative path as cd projects/linux/
+ using the CLI will open new options which are not in the reach of graphical user interface.it allows to execute several instructions faster as well.
+ $ symbol is usually a symbol that seperates the reminal prompt.~ symbol is used to represent the path to the home directory 
+ 
+ part 2
+
+    client
+ (sends a web request from the browser)
+      -->
+      DNS
+      (resolves the domain name to an ip adress)
+      -->
+ firewall
+(filters and allows only legitimate traffic)
+      -->
+    load balancer
+    (distributes incoming requests across web servers)
+      -->
+web server
+(recieves the request and forwards it to the application server)
+      -->
+application server
+(processes the database response)
+      -->
+      database
+      (stores and retrieves the requested data)
+      -->
+      application server
+      (processes the database response)
+      -->
+      web server
+      (sends the response back to the client)
+      -->
+      client
+      (displays the requested web page to the user)
+      
